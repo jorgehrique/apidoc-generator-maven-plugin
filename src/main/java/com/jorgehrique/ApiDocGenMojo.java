@@ -22,7 +22,7 @@ public class ApiDocGenMojo extends AbstractMojo {
     @Parameter(name = "apiAnnotationsType", defaultValue = "SPRING_WEB")
     private ApiAnnotationsType apiAnnotationsType;
 
-    @Parameter(name = "documentationSpec", defaultValue = "OpenApi3")
+    @Parameter(name = "documentationSpec", defaultValue = "OPEN_API_3")
     private DocumentationSpec documentationSpec;
 
     @Override
