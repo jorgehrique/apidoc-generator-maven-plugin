@@ -41,10 +41,14 @@
 				<groupId>com.jorgehrique</groupId>
 				<artifactId>apidoc-generator-maven-plugin</artifactId>
 				<version>1.0-SNAPSHOT</version>
+				<configuration>
+					<apiAnnotationsType>SPRING_WEB</apiAnnotationsType>
+					<documentationSpec>OPEN_API_3</documentationSpec>
+				</configuration>
 				<executions>
 					<execution>
 						<goals>
-							<goal>openapi-generator</goal>
+							<goal>doc-generator</goal>
 						</goals>
 					</execution>
 				</executions>
